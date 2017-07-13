@@ -1,0 +1,9 @@
+make ARCH=x86_64 CROSS_COMPILE= -C /lib/modules/4.4.3-040403-generic/build M=/home/neo/Program/testwifi/testwifi-workqueue  modules
+make[1]: Entering directory `/usr/src/linux-headers-4.4.3-040403-generic'
+  CC [M]  /home/neo/Program/testwifi/testwifi-workqueue/os_dep/linux/usb_intf.o
+  LD [M]  /home/neo/Program/testwifi/testwifi-workqueue/88x2bu.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/neo/Program/testwifi/testwifi-workqueue/88x2bu.mod.o
+  LD [M]  /home/neo/Program/testwifi/testwifi-workqueue/88x2bu.ko
+make[1]: Leaving directory `/usr/src/linux-headers-4.4.3-040403-generic'
