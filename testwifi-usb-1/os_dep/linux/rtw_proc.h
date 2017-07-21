@@ -1,0 +1,25 @@
+/******************************************************************************
+ *
+ * Copyright(c) 2007 - 2017 Realtek Corporation.
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of version 2 of the GNU General Public License as
+ * published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+ * more details.
+ *
+ *****************************************************************************/
+#ifndef __RTW_PROC_H__
+#define __RTW_PROC_H__
+
+#include <linux/proc_fs.h>
+#include <linux/seq_file.h>
+
+int rtw_drv_proc_init(void);
+void rtw_drv_proc_deinit(void);
+
+#endif /* __RTW_PROC_H__ */
+
